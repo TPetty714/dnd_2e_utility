@@ -28,4 +28,14 @@ public class PlayerTest {
         assertTrue(testPlayer.addCharacter("test"));
     }
 
+    @Test
+    void should_be_able_to_remove_character() {
+        testPlayer.addCharacter("test2");
+        assertTrue(testPlayer.characters.containsKey("test2"));
+        assertTrue(testPlayer.removeCharacter("test2"));
+        assertFalse(testPlayer.characters.containsKey("test2"));
+    }
+
+
+
 }
