@@ -1,0 +1,23 @@
+Player should be able to ...
+    create an account
+    sign in
+    create a character
+    select a character
+    remove a character
+
+Characters should be able to ...
+    add a kill for the day
+    add kills of the day to total kills
+    select if character gets 10% XP bonus for high stats
+    calculate XP gained for the day
+    calculate Fighter specific XP for kills
+    remove a kill for the day because of error
+
+Kill lists should be able to ...
+    add creatures to list
+    remove creatures from list
+
+Creatures should include ...
+    Creature name
+    XP per hit die
+    number of hit die
